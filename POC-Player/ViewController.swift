@@ -18,10 +18,10 @@ class ViewController: UIViewController {
     private var trickPlayImageView: UIImageView!
 
     // NO TRICK PLAY
-    private let videoURL = "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8"
+//    private let videoURL = "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8"
 
     // HAS I-FRAMES
-//    private let videoURL = "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8"
+    private let videoURL = "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8"
 
     override func viewDidLoad() {
         super.viewDidLoad()
